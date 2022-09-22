@@ -18,7 +18,6 @@ let user = {
 
 // user.printFullname();
 
-
 // 3. Realize pipe pattern
 // const res = pipe(
 //   multiplyTwo,
@@ -36,7 +35,6 @@ const pipe = (func1, func2) => (num) => {
 
 let res = pipe(multiplyTwo,minusFour)(20);
 console.log('Result:', res)
-
 
 // 4. Realize memo pattern
 // const sum = (a,b) => a + b;
@@ -67,9 +65,7 @@ function memo(func) {
    console.log('The argument must be a function!')
 }
 
-
-
-const memoSum = memo(1212152);
+const memoSum = memo(sum);
 console.log(memoSum(10,204))
 console.log(memoSum(10,4))
 

@@ -9,8 +9,6 @@ function sum(num1, num2) {
 
 //console.log(sum(10,30));  //40
 
-
-
 //2. Написать функцию, которая выводит в консоль четные числа от a до b (a, b – параметры функции)
 
 function printOddNumbers(a, b) {
@@ -25,9 +23,6 @@ function printOddNumbers(a, b) {
 
 // printOddNumbers(10,20)
 
-
-
-
 //3. Написать функцию, которая сравнивает 3 числа и выводит в консоль самое большое из них
 
 function printMaxNumber(num1, num2, num3) {
@@ -40,7 +35,6 @@ function printMaxNumber(num1, num2, num3) {
             return num3
         } else return 'Numbers are equals!!!'
     }
-
     return 'Please enter only numbers!';
 }
 
